@@ -22,19 +22,15 @@ public class IntegrationTest extends FluentTest {
     assertThat(pageSource()).contains("Enter any phrase to have its vowels obfuscated:");
   }
 
-/*
   @Test
-  public void rootTest() {
-      goTo("http://localhost:4567/");
-      assertThat(pageSource()).contains("Enter change:");
-  }
-  @Test
-  public void getChange() {
+  public void VowelstoDashes_putVowels_getDashes() {
     goTo("http://localhost:4567");
-    fill("#userChange").with("87");
+    fill("#textInput").with("Believe you can and you're halfway there. Theodore Roosevelt");
     submit(".btn");
-    assertThat(pageSource()).contains("Your change for 87 cents is 3 quarters, 1 dime, 2 pennies.");
+    assertThat(pageSource()).contains("B-l--v- y-- c-n -nd y--'r- h-lfw-y th-r-. Th--d-r- R--s-v-lt");
   }
+
+  /*
   @Test
   public void negativeNumber() {
     goTo("http://localhost:4567");

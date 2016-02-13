@@ -18,7 +18,8 @@ public class App {
       String textInput = request.queryParams("textInput");
 
       //call business logic functions here
-      String result = textInput;
+      String result = VowelsToDashes(textInput);
+
 
       HashMap model = new HashMap();
       model.put("template", "templates/output.vtl");
