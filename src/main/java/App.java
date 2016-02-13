@@ -28,6 +28,16 @@ public class App {
       //additional pages would go here
   }
 
-  //public static 'Returntype' 'FuncName' (Paramtype param) {}  //first business logic function
 
-}
+  public static String VowelsToDashes (String textInput) {
+    char[] vowels = {'a','A','e','E','i','I','o','O','u','U'};
+
+    for(char vowel: vowels) {
+      textInput = textInput.replace(vowel,'-');
+    }
+
+    return textInput;
+  } //end of VowelsToDashes
+
+
+} //end of App class
