@@ -16,7 +16,11 @@ public class IntegrationTest extends FluentTest {
   public static ServerRule server = new ServerRule();
 
 
-
+  @Test
+  public void rootTest() {
+    goTo("http://localhost:4567/");
+    assertThat(pageSource()).contains("Enter a string to have its vowels obfuscated:");
+  }
 
 /*
   @Test
