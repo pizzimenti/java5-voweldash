@@ -19,7 +19,7 @@ public class IntegrationTest extends FluentTest {
   @Test
   public void rootTest() {
     goTo("http://localhost:4567/");
-    assertThat(pageSource()).contains("Enter a string to have its vowels obfuscated:");
+    assertThat(pageSource()).contains("Enter any phrase to have its vowels obfuscated:");
   }
 
 /*
