@@ -16,12 +16,11 @@ Obfuscation of vowels to dashes through the use of Java's string 'replace' metho
 
 Download and install gradle from Homebrew:
 
-```
+```bash
 brew update
 brew install gradle
 ```
 
 or install manually [from the developer](http://gradle.org/gradle-download/)
 
-
-#Copyright (c) 2016 Brad Pizzimenti
+###### Copyright (c) 2016 Brad Pizzimenti
