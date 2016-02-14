@@ -1,4 +1,5 @@
-# Java Week 1 - Vowel Dash - Unit and Integration testing with basic Java frameworks
+# Java Week 1 - Vowel Dash
+#### Unit and Integration testing with basic Java frameworks
 
 ## Description
 
@@ -15,8 +16,10 @@ Obfuscation of vowels to dashes through the use of Java's string 'replace' metho
 
 Download and install gradle from Homebrew:
 
->$ brew update
->$ brew install gradle
+```
+brew update
+brew install gradle
+```
 
 or install manually [from the developer](http://gradle.org/gradle-download/)
 
