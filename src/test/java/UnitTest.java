@@ -9,4 +9,9 @@ public class UnitTest {
     assertEquals("sn-ggl-", testApp.VowelsToDashes("snuggle"));
   }
 
+  @Test
+  public void Hint_t_st_ng_testing() {
+    App testApp = new App();
+    assertEquals("snuggl-", testApp.Hint("sn-ggl-"));
+  }
 }
